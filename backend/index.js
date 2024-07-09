@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 app.use("/user", UserRouter);
 app.use("/home", authentication, (req, res) => {
-  res.send("Protected Route, Login Please");
+  res.send("Protected Route");
 });
 
 app.listen(process.env.PORT || 8080, async () => {
