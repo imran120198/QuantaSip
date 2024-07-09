@@ -1,7 +1,8 @@
 # Quantasip Assignment
 
 ## Deployment Link
-https://elaborate-monstera-2791c3.netlify.app/
+Netlify - https://elaborate-monstera-2791c3.netlify.app/
+Vercel - https://frontend-rouge-phi-11.vercel.app/
 
 ## Problem Statement
 Implement a Secure User Authentication System
