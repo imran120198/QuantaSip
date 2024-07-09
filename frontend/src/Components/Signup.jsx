@@ -12,11 +12,14 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:7000/user/signup", {
-        username,
-        email,
-        password,
-      });
+      const res = await axios.post(
+        "https://quantasip-backend-1e5e.onrender.com/user/signup",
+        {
+          username,
+          email,
+          password,
+        }
+      );
       navigate("/login");
     } catch (err) {
       console.log(err);

@@ -18,7 +18,7 @@ const Dashboard = () => {
           },
         };
         try {
-          const res = await axios.get("http://localhost:7000/home", config);
+          const res = await axios.get("https://quantasip-backend-1e5e.onrender.com/home", config);
         } catch (err) {
           console.log(err);
         }

@@ -11,7 +11,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:7000/user/login", {
+      const res = await axios.post("https://quantasip-backend-1e5e.onrender.com/user/login", {
         email,
         password,
       });
